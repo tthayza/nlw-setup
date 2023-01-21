@@ -1,10 +1,14 @@
-# __NLW Setup__
+# __NLW Setup__ 👩🏻‍🚀
 
 ## Projeto desenvolvido na 11ª edição do evento _Never Stop Learning_ da RocketSeat 🚀
 
 #
 
 #### Essa página tem como objetivo incentivar o desenvolvimentos de novos hábitos e mantê-los constantes através de um possível controle.
+
+#
+
+![preview](/preview.png)
 
 #
 

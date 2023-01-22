@@ -5,35 +5,45 @@
 }
 
 body{
-  background-color: #09090A;
+  background-color: #1d191c;
   height: 100vh;
 }
 
 header{
   display: flex;
-  padding: 48px;
+  padding: 48px 48px 0px 48px;
   align-items: center;
   justify-content: space-between;
+  /* background-color: #1d191c; */
+  backdrop-filter: blur(10px);
 
   position: fixed;
   width: 100%;
+  height: 20%;
 }
 
 button {
   background-color: transparent;
   padding: 16px 24px;
-  color: white;
+  color: #FECDD3;
   font-family: 'Inter';
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
 
-  border: 1px solid #8B5CF6;
+  border: 1px solid #FB7185;
   border-radius: 8px;
 
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+button:hover {
+  background-color: #FDA4AF;
+  color:#E11D48;
+  border: #FDA4AF;
+  cursor: pointer;
 }
 
 #form-habits {
@@ -45,14 +55,14 @@ button {
 .habits {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  margin-top: 60px;
+  gap: 9.5px;
+  margin-top: 64px;
 }
 
 .habit {
   width: 64px;
   height: 64px;
-  font-size: 40px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,41 +70,45 @@ button {
 
 .days {
   display: flex;
-  margin-left: 32px;
+  margin-left: 15px;
   gap:48px;
-
 }
 .day {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 29px;
 }
 
 .day div{
-  margin-bottom: 8px;
+  margin-bottom: 18px;
 
   font-family: 'Roboto Mono';
-  font-size: 20px;
+  font-size: 18px;
   line-height: 125%;
   text-align: center;
-  color: #A1A1AA;
+  color: #FECDD3;
 }
 
 input {
-  width: 64px;
-  height: 64px;
+  width: 45px;
+  height: 45px;
    appearance: none;
   -webkit-appearance: none;
-  background: #18181B;
-  border: 2px solid #27272A;
+  background:#2b232a;
+  border: 2px solid #FDA4AF;
   border-radius: 8px;
-  border-radius: 8px;
+  align-self: center;
+}
+
+input:hover{
+  cursor: pointer;
+  background-color: #FECDD3;
 }
 
 /* pseudo-selector */
 input:checked{
-  background: #8B5CF6;
-  border: 2px solid #A78BFA;
+  background: #E11D48;
+  border: 2px solid #FDA4AF;
 }
 
 @media (max-width:570px){

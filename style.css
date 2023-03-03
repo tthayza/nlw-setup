@@ -57,9 +57,9 @@ button:hover {
   flex-direction: column;
   gap: 9.5px;
   margin-top: 64px;
-  position: fixed;
+  position: sticky;
   left: 0;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1.5px);
 }
 
 .habit {
